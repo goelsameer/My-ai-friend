@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "use": "@vercel/node"
+        }
+    ],
+    "functions": {
+        "pre-install": {
+            "command": "npm run install-prisma"
+        }
+    }
+}

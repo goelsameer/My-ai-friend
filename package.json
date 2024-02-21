@@ -1,12 +1,15 @@
 {
-  "name": "ai-companian",
+  "name": "my-ai-friend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "install-prisma": "npm install @prisma/cli @prisma/client",
+    "prisma-generate": "npx prisma generate",
+    "prisma-push": "npx prisma db push"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.7",
